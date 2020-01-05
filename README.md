@@ -119,4 +119,7 @@ print("Results:", job_result.get_counts(circuit))
     Results: {'0': 963, '1': 37}
 
 
-Congratulations! If you reached this point you have already run your first circuit on a real quantum computer! Please note the noise of our results, while theoretically the qubit had a probability = 1 of having state = 0 when measured, we still observed 37 times state = 1.
+Congratulations! If you reached this point you have already tested your first circuit on a real quantum computer! Please note the noise of our results, while theoretically the qubit had a probability = 1 of having state = 0 when measured, we still observed 37 times state = 1.
+
+# Conclusions
+We have created a project that allows us to test a simple quantum cirquit with one qubit and one output on IBM Q's cloud. The process was straightforward and the tool is well worth a try because of its huge potential, also being able to work from Python using Qiskit makes it so easy to get started with it. What's not easy, though, is to wrap one's head around all the quantum computing concepts and physical layer issues that are not abstracted. At the same time, it's very early in the game for quantum computing and it looks mainly experimental for now.
