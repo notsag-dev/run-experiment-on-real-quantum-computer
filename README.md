@@ -1,5 +1,5 @@
 
-# Testing the simplest circuit on a real quantum computer
+# Testing the simplest circuit ever on a real quantum computer
 
 The objective of this experiment is to get to execute the simplest circuit ever on an IBM's real quantum computer for free in just a few minutes (isn't that pretty cool, amigo?). Please check [IBMQ](https://quantum-computing.ibm.com/) and [Qiskit](https://qiskit.org) for a bit of context if you haven't done so.
 
