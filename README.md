@@ -1,7 +1,8 @@
 
 # Testing the simplest circuit ever on a real quantum computer
+Note: This readme file has been generated from the Jupyter notebook's output included in the repository
 
-The objective of this experiment is to get to execute the simplest circuit ever on an IBM's real quantum computer for free in just a few minutes (isn't that pretty cool, amigo?). Please check [IBMQ](https://quantum-computing.ibm.com/) and [Qiskit](https://qiskit.org) for a bit of context if you haven't done so.
+The objective of this experiment is to get to execute the simplest circuit ever on an IBM's real quantum computer for free in just a few minutes (isn't that pretty cool, amigo?). Please check [IBMQ](https://quantum-computing.ibm.com/) and [Qiskit](https://qiskit.org) for getting a bit of context if you haven't done so already.
 
 First of all, we need to set up our IBM Q account. Please [register](https://qiskit.org/documentation/install.html#access-ibm-q-systems) and get your API token as shown in the link, paste it below and run:
 
@@ -13,18 +14,6 @@ ibm_api_token = 'YOUR TOKEN HERE'
 IBMQ.save_account(ibm_api_token)
 IBMQ.load_account()
 ```
-
-    Credentials already present. Set overwrite=True to overwrite.
-    /usr/local/lib/python3.7/site-packages/qiskit/providers/models/backendconfiguration.py:337: UserWarning: `dt` and `dtm` now have units of seconds(s) rather than nanoseconds(ns).
-      warnings.warn('`dt` and `dtm` now have units of seconds(s) rather '
-
-
-
-
-
-    <AccountProvider for IBMQ(hub='ibm-q', group='open', project='main')>
-
-
 
 We're now all set to start using real quantum computers! Let's list all the available backends we can use, including most likely several quantum computers and a simulator:
 
