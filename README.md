@@ -1,6 +1,6 @@
 
 # Testing the simplest circuit ever on a real quantum computer
-Note: This readme file has been generated from the Jupyter notebook's output included in the repository
+Note: This readme file has been generated from the Jupyter notebook's output included in the repository.
 
 The objective of this experiment is to get to execute the simplest circuit ever on an IBM's real quantum computer for free in just a few minutes (isn't that pretty cool, amigo?). Please check [IBMQ](https://quantum-computing.ibm.com/) and [Qiskit](https://qiskit.org) for getting a bit of context if you haven't done so already.
 
@@ -83,9 +83,7 @@ Let's now create a very simple circuit with just one qubit, and visualize it:
 
 
 ```python
-from qiskit import (QuantumCircuit,
-    execute,
-    Aer)
+from qiskit import (QuantumCircuit, execute)
 from qiskit.visualization import plot_histogram
 
 n_qubits = 1
