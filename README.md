@@ -15,7 +15,7 @@ IBMQ.save_account(ibm_api_token)
 IBMQ.load_account()
 ```
 
-We're now all set to start using real quantum computers! Let's list all the available backends we can use, including most likely several quantum computers and a simulator:
+We're now all set to start interacting with the IBMQ back-ends! Let's list all of them, which would include most likely several quantum computers and a simulator:
 
 
 ```python
@@ -72,14 +72,14 @@ for backend in provider.backends():
     
 
 
-From the backend list, select one and replace its name below to use it as your backend. I'm going to go with ibmq_armonk, it's hopefully the fastest option as it has just one queued job and its one qubit will be enough for this experiment.
+From the list, select one and replace its name below to select it. I'm going to go with `ibmq_armonk`, it's hopefully the fastest option as it has just one queued job and its one qubit will be enough for this experiment.
 
 
 ```python
 backend_name = 'ibmq_armonk'
 ```
 
-Let's now create a very simple circuit with just one qubit, and visualize it:
+Let's now create a very simple circuit (with just one qubit!), and visualize it:
 
 
 ```python
